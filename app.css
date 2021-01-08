@@ -25,7 +25,7 @@ body{
     margin-right: 0rem;
 }
 
-.navbar-nav .nav-item a.nav-link{
+.navbar-nav .nav-item .nav-link{
     color: white;
     font-size: 1.5rem;
     font-weight: 100;
@@ -77,3 +77,15 @@ p.lead {
     padding-bottom: 0px;
 }
 
+.navbar-toggler{
+    margin-left: auto;
+    border: none;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+} 
+
+#mainNav{
+    background: rgb(222,192,222);;
+}
